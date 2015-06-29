@@ -1,0 +1,34 @@
+UnityPanelWidget,
+.unity-panel {
+    border-style: solid;
+    border-color: @menubar_bg_color;
+    background-color: @menubar_bg_color;
+    background-image: none;
+    color: @menubar_fg_color;
+    box-shadow: none;
+}
+
+.unity-panel.menubar,
+.unity-panel .menubar {
+}
+
+.unity-panel.menuitem,
+.unity-panel .menuitem {
+    color: @panel_fg_color;
+    text-shadow:none;
+}
+
+.unity-panel.menubar.menuitem:hover,
+.unity-panel.menubar .menuitem *:hover {
+    border-color: @selected_bg_color;
+    background-color: @selected_bg_color;
+    background-image: none;
+    color: shade(@panel_fg_color, 1.08);
+    box-shadow: none;    
+}
+
+ /* Title settings */
+    -UnityDecoration-title-indent: 10px;/* Size property, left indent of the title */
+    -UnityDecoration-title-fade: 35px;/* Size property, space of the title that can be faded */
+    -UnityDecoration-title-alignment: 0.0;/* Float from 0.0 to 1.0, to align the title */
+}

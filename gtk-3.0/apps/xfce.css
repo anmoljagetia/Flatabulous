@@ -1,0 +1,57 @@
+XfceHeading {
+    background-color: @theme_base_color;
+    background-image: none;
+    padding: 0;
+    border-width: 0;
+}
+
+.xfce4-panel {
+    background-color: @panel_bg_color;
+    font: normal;
+}
+
+.xfce4-panel .button {
+    border-radius: 0;
+    padding: 1px;
+    color: @panel_fg_color;
+    border-width: 1px;
+}
+
+.xfce4-panel .button:active {
+    border-radius: 0;
+    border-color: shade(@panel_bg_color, 0.8);
+    background-color: shade(@panel_bg_color, 0.9);
+    background-image: none;
+    color: shade(@panel_fg_color, 1.08);
+    transition: none;
+}
+
+.xfce4-panel .button:hover,
+.xfce4-panel .button:active:hover {
+    border-color: mix(@panel_bg_color, @panel_fg_color, 0.21);
+    background-color: mix(@panel_bg_color, @panel_fg_color, 0.31);
+    background-image: none;
+    color: shade(@panel_fg_color, 1.08);
+    transition: none;
+}
+
+/* menu-styling, e.g. for indicators */
+.xfce4-panel .menu,
+.xfce4-panel .menu GtkLabel,
+.xfce4-panel .menu GtkImage {
+    background-color: @menu_bg_color;
+    color: @menu_fg_color;
+}
+
+.xfce4-panel .menu *:hover {
+    border-color: shade(@theme_selected_bg_color, 0.9);
+    background-color: @theme_selected_bg_color;
+    background-image: none;
+    color: @theme_selected_fg_color;
+}
+
+.xfce4-panel .menu GtkLabel:hover,
+.xfce4-panel .menu GtkImage:hover {
+    background-image: none;
+    color: @theme_selected_fg_color;
+}

@@ -1,0 +1,73 @@
+style "notify-window" {
+    XfceNotifyWindow::summary-bold = 1
+    XfceNotifyWindow::border-color = "#2d2d2d"
+    XfceNotifyWindow::border-color-hover = "#333333"
+    XfceNotifyWindow::border-radius = 2.0
+    XfceNotifyWindow::border-width = 1.0
+    XfceNotifyWindow::border-width-hover = 1.0
+
+    bg[NORMAL] = "#111111"
+}
+
+style "notify-button" {
+    bg[NORMAL] = "#2d2d2d"
+    bg[PRELIGHT] = "#333333"
+    bg[ACTIVE] = "#2d2d2d"
+
+    fg[NORMAL] = "#dcdcdc"
+    fg[PRELIGHT] = "#dedede"
+    fg[ACTIVE] = "#dedede"
+
+    engine "murrine" {
+        gradient_shades = { 1.0, 1.0, 1.0, 1.0 }
+		border_shades = { 0.9, 0.9 }
+        roundness = 2
+        textstyle = 0
+    }
+}
+
+style "notify-text" {
+    GtkWidget::link-color = "#d64937"
+
+    fg[NORMAL] = "#f9f9f9"
+    fg[PRELIGHT] = "#f9f9f9"
+    fg[ACTIVE] = "#f9f9f9"
+
+    engine "murrine" {
+        textstyle = 0
+    }
+}
+
+style "notify-summary" {
+    font_name = "Bold"
+}
+
+style "notify-progressbar" {
+    xthickness   = 1
+    ythickness   = 1
+
+    bg[NORMAL]   = "#dcdcdc"
+	bg[ACTIVE] = "#2d2d2d"
+    bg[SELECTED] = "#dedede"
+
+    fg[PRELIGHT] = "#333333"
+    fg[ACTIVE] = "#f9f9f9"
+    fg[SELECTED] = "#333333"
+
+    engine "murrine" {
+        gradient_shades = { 1.0, 1.0, 1.0, 1.0 }
+        border_shades = { 1.0, 1.0 }
+		trough_shades = { 1.0, 1.0 }
+		trough_border_shades = { 1.0, 1.0 }
+        progressbarstyle = 0
+        roundness = 2
+        textstyle = 0
+    }
+}
+
+class "XfceNotifyWindow" style "notify-window"
+widget "XfceNotifyWindow.*.summary" style "notify-summary"
+widget_class "XfceNotifyWindow.*<GtkButton>" style "notify-button"
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "notify-text"
+widget_class "XfceNotifyWindow.*.<GtkProgress>" style "notify-progressbar"
+widget_class "XfceNotifyWindow.*.<GtkProgressBar>" style "notify-progressbar"

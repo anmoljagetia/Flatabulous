@@ -1,0 +1,66 @@
+/* default color scheme */
+@define-color base_color #333333;
+@define-color bg_color #222222;
+@define-color text_color #dedede;
+@define-color fg_color #dcdcdc;
+@define-color selected_bg_color #7A7D81;
+@define-color selected_fg_color #f9f9f9;
+@define-color tooltip_bg_color #222222;
+@define-color tooltip_fg_color #dedede;
+
+/* colormap actually used by the theme, to be overridden in other css files */
+@define-color theme_bg_color @bg_color;
+@define-color theme_fg_color @fg_color;
+@define-color theme_base_color @base_color;
+@define-color theme_text_color @text_color;
+@define-color theme_selected_bg_color @selected_bg_color;
+@define-color theme_selected_fg_color @selected_fg_color;
+@define-color theme_tooltip_bg_color @tooltip_bg_color;
+@define-color theme_tooltip_fg_color @tooltip_fg_color;
+
+/* shadow effects */
+@define-color light_shadow #000;
+@define-color dark_shadow #000;
+
+/* misc colors used by gtk+ */
+@define-color info_fg_color rgb (58, 135, 173);
+@define-color info_bg_color rgb (217, 237, 247);
+@define-color warning_fg_color rgb (192, 152, 83);
+@define-color warning_bg_color rgb (252, 248, 227);
+@define-color question_fg_color rgb (214, 73, 55);
+@define-color question_bg_color rgb (252, 229, 213);
+@define-color error_fg_color rgb (185, 74, 72);
+@define-color error_bg_color rgb (242, 222, 222);
+@define-color link_color #fc6f5d;
+@define-color success_color #53a93f;
+@define-color warning_color #f57900;
+@define-color error_color #cc0000;
+
+/* widget colors */
+@define-color menubar_bg_color #222222;
+@define-color menubar_fg_color #dcdcdc;
+@define-color toolbar_bg_color #222222;
+@define-color toolbar_fg_color #dcdcdc;
+@define-color menu_bg_color #222222;
+@define-color menu_fg_color #dcdcdc;
+@define-color panel_bg_color #222222;
+@define-color panel_fg_color #dcdcdc;
+
+/* osd */
+@define-color osd_base #222222;
+@define-color osd_fg #dcdcdc;
+@define-color osd_bg alpha(@osd_base, 0.8);
+
+/* window manager colors */
+@define-color wm_bg #222222;
+@define-color wm_title_focused #dcdcdc;
+@define-color wm_title_unfocused #888888;
+@define-color wm_border_focused #484848;
+@define-color wm_border_unfocused #393939;
+
+@import url("gtk-widgets.css");
+@import url("gtk-widgets-assets-dark.css");
+@import url("apps/gnome-applications.css");
+@import url("apps/granite-widgets.css");
+@import url("apps/unity.css");
+@import url("apps/xfce.css");

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flatabulous
+Comment=A modern flat theme designed from Ultra Flat Theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Flatabulous
+MetacityTheme=Flatabulous
+ButtonLayout=:minimize,maximize,close

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="16"
+   height="21"
+   id="svg2">
+  <defs
+     id="defs4">
+    <linearGradient
+       x1="14.693429"
+       y1="0.66082227"
+       x2="18.178385"
+       y2="4.1457782"
+       id="linearGradient2409"
+       xlink:href="#linearGradient2402"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.7055622,0.8507333,-0.7055622,0.8507333,-3.5581965,-4.0623726)" />
+    <linearGradient
+       id="linearGradient2402">
+      <stop
+         id="stop2404"
+         style="stop-color:#4d86b2;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2406"
+         style="stop-color:#8ab9dd;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <path
+     d="M 4,10 L 12,10 L 7.8532107,15 L 4,10 z"
+     id="path2411"
+     style="opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="M 4,9 L 12,9 L 7.8532107,14 L 4,9 z"
+     id="path2407"
+     style="opacity:1;fill:url(#linearGradient2409);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</svg>

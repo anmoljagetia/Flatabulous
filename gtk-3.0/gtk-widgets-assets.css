@@ -1,0 +1,137 @@
+/*******************
+ * check and radio *
+ *******************/
+/* draw regular check and radio items using our assets */
+.check,
+.check row:selected,
+.check row:selected:focus {
+    background-image: url("assets/checkbox-unchecked.svg");
+}
+
+.check:insensitive,
+.check row:selected:insensitive,
+.check row:selected:focus:insensitive {
+    background-image: url("assets/checkbox-unchecked-insensitive.svg");
+}
+
+.check:active,
+.check row:selected:active,
+.check row:selected:focus:active {
+    background-image: url("assets/checkbox-checked.svg");
+}
+
+.check:active:insensitive,
+.check row:selected:active:insensitive,
+.check row:selected:focus:active:insensitive {
+    background-image: url("assets/checkbox-checked-insensitive.svg");
+}
+
+.check:inconsistent,
+.check row:selected:inconsistent,
+.check row:selected:focus:inconsistent {
+    background-image: url("assets/checkbox-mixed.svg");
+}
+
+.check:inconsistent:insensitive,
+.check row:selected:inconsistent:insensitive,
+.check row:selected:focus:inconsistent:insensitive {
+    background-image: url("assets/checkbox-mixed-insensitive.svg");
+}
+
+.radio,
+.radio row:selected,
+.radio row:selected:focus {
+    background-image: url("assets/radio-unselected.svg");
+}
+
+.radio:insensitive,
+.radio row:selected:insensitive,
+.radio row:selected:focus:insensitive {
+    background-image: url("assets/radio-unselected-insensitive.svg");
+}
+
+.radio:active,
+.radio row:selected:active,
+.radio row:selected:focus:active {
+    background-image: url("assets/radio-selected.svg");
+}
+
+.radio:active:insensitive,
+.radio row:selected:active:insensitive,
+.radio row:selected:focus:active:insensitive {
+    background-image: url("assets/radio-selected-insensitive.svg");
+}
+
+.radio:inconsistent,
+.radio row:selected:inconsistent,
+.radio row:selected:focus:inconsistent {
+    background-image: url("assets/radio-mixed.svg");
+}
+
+.radio:inconsistent:insensitive,
+.radio row:selected:inconsistent:insensitive,
+.radio row:selected:focus:inconsistent:insensitive {
+    background-image: url("assets/radio-mixed-insensitive.svg");
+}
+
+.menuitem.check:active {
+    background-image: url("assets/menuitem-checkbox-checked.svg");
+}
+
+.menuitem.check:active:hover {
+    background-image: url("assets/menuitem-checkbox-checked-hover.svg");
+}
+
+.menuitem.check:active:insensitive {
+    background-image: url("assets/menuitem-checkbox-checked-insensitive.svg");
+}
+
+.menuitem.check:inconsistent:hover,
+.menuitem.radio:inconsistent:hover {
+    background-image: url("assets/menuitem-checkbox-mixed-hover.svg");
+}
+
+.menuitem.check:inconsistent,
+.menuitem.radio:inconsistent {
+    background-image: url("assets/menuitem-checkbox-mixed.svg");
+}
+
+.menuitem.check:inconsistent:insensitive,
+.menuitem.radio:inconsistent:insensitive {
+    background-image: url("assets/menuitem-checkbox-mixed-insensitive.svg");
+}
+
+.menuitem.radio:active {
+    background-image: url("assets/menuitem-radio-checked.svg");
+}
+
+.menuitem.radio:active:hover {
+    background-image: url("assets/menuitem-radio-checked-hover.svg");
+}
+
+.menuitem.radio:active:insensitive {
+    background-image: url("assets/menuitem-radio-checked-insensitive.svg");
+}
+
+GtkIconView.content-view.cell.check {
+    background-image: url("assets/grid-selection-unchecked.svg");
+}
+
+GtkIconView.content-view.cell.check:active {
+    background-image: url("assets/grid-selection-checked.svg");
+}
+
+/******************
+ * pane separator *
+ ******************/
+.pane-separator.horizontal {
+    background-image: url("assets/pane-handle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pane-separator.vertical {
+    background-image: url("assets/pane-handle-vertical.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
