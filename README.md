@@ -63,7 +63,7 @@ Now press your super key, search for **Ubuntu Tweak** and fire it. Under the twe
 
 #Posters
 
-There are a few posters, for promotion and publicity. The PSD files can be found [here](). Feel free to improve them.
+There are a few posters, for promotion and publicity. The PSD files can be found [here](https://github.com/anmoljagetia/Flatabulous/tree/master/preview/PSD). Feel free to improve them.
 
 ![Poster 1](http://i.imgur.com/0SZrre3.png)
 *Red Poster*
