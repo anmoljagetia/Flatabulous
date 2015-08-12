@@ -1,15 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="37">
- <defs>
-  <clipPath>
-   <rect y="1015.36" x="20" height="37" width="20" opacity="0.12" fill="#ff00ff" color="#000000"/>
-  </clipPath>
-  <clipPath>
-   <rect y="1033.36" x="20" height="19" width="10" opacity="0.12" fill="#ff00ff" color="#000000"/>
-  </clipPath>
- </defs>
- <g transform="translate(0,-1015.3622)">
-  <g transform="matrix(2,0,0,1.4999968,0,-530.67775)">
-   <rect rx="1" y="1039.36" x="2" height="8" width="4" fill="#f9f9f9"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20"
+   height="37"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48+devel r"
+   inkscape:export-filename="test.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="launcher_arrow_large_ltr.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4219">
+      <rect
+         y="1015.3622"
+         x="20"
+         height="37"
+         width="20"
+         id="rect4221"
+         style="opacity:0.12000002;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#5c48bb"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.3132256"
+     inkscape:cx="-5.367523"
+     inkscape:cy="31.963893"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4740"
+       empspacing="8"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="8,19"
+       id="guide3004" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1015.3622)">
+    <path
+       inkscape:transform-center-x="16.337474"
+       style="fill:#000000;stroke:none;opacity:0.14"
+       d="m 0,1023.9176 12.785849,9.9445 L 0,1043.8066 Z"
+       id="path5730"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4079"
+       d="m 0,1024.9178 11.5,8.9444 -11.5,8.9444 z"
+       style="fill:#ffffff;stroke:none"
+       inkscape:transform-center-x="14.694444" />
   </g>
- </g>
 </svg>
