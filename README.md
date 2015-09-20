@@ -1,10 +1,10 @@
 ![Flatabulous](http://i.imgur.com/6UciOOK.png)
 
 #Flatabulous
+
 This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is based on a the Ultra-Flat theme. Special thanks to @steftrikia and Satyajit Sahoo for the original work.
 
 #Installation
-
 
 This theme was designed *specially* for the Unity environment on Ubuntu as I have only tested it on Ubuntu. It might not work properly for the other versions.
 
@@ -72,7 +72,15 @@ There are a few posters, for promotion and publicity. The PSD files can be found
 *Flat Poster*
 
 #Contributing
+
 For any questions, please open an issue. If you are a developer or a designer, please contribute in form of code/graphics. For any other issue, please [email me](mailto:hello@anmoljagetia.me).
 
+#Updates
+
+##v 1.1
+* Fixes issue of transparent check-box and transparent radio buttons.
+* Updates the launcher icon.
+
 #License
+
 http://anmoljagetia.mit-license.org/
