@@ -1,5 +1,5 @@
 UnityDecoration {
-    -UnityDecoration-extents: 27px 1px 1px 1px;
+    -UnityDecoration-extents: 30px 0px 0px 0px;
     -UnityDecoration-input-extents: 15px;
 
     -UnityDecoration-shadow-offset-x: 1px;
@@ -20,7 +20,7 @@ UnityDecoration {
 UnityDecoration.top {
     border: 0px solid mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.21);
     border-bottom-width: 0;
-    border-radius: 2px 2px 0 0;
+    border-radius: 6px 6px 0 0;
     padding: 1px 8px 0 8px;
     background-color: @titlebar_bg_color;
     color: mix(@titlebar_fg_color, @titlebar_bg_color, 0.1);
