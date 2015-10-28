@@ -75,11 +75,21 @@ There are a few posters, for promotion and publicity. The PSD files can be found
 
 For any questions, please open an issue. If you are a developer or a designer, please contribute in form of code/graphics. For any other issue, please [email me](mailto:hello@anmoljagetia.me).
 
+#Contributors
+
+List of all contributors can be found [here](https://github.com/anmoljagetia/Flatabulous/graphs/contributors). I would also like to specially thank :
+
+1. [Dexbyte](https://github.com/dexbyte) : For providing the rounded corners in the latest master branch.
+2. [Adalid Gamero](https://github.com/gamerox) : For fixing the check-box issue on 14.xx and 15.xx systems.
+
+You guys are awesome!
+
 #Updates
 
 ##v 1.1
 * Fixes issue of transparent check-box and transparent radio buttons.
 * Updates the launcher icon.
+* Adds rounded top bars to unity.
 
 #License
 
