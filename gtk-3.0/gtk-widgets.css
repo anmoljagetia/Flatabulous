@@ -503,7 +503,7 @@ GtkComboBox.combobox-entry .button:insensitive {
  *********/
 .frame {
     border-width: 0;
-    border-radius: 2;
+    border-radius: 2px;
 }
 
 /*******************
@@ -2037,7 +2037,7 @@ GtkColorButton.button {
     border-width: 0;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
-    border-radius: 2;
+    border-radius: 2px;
     background-color: @theme_bg_color;
     background-image: none;
 }
