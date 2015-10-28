@@ -1,5 +1,5 @@
 /*******************
- * check and radio *
+ * check and radio Ubuntu 15.xx*
  *******************/
 /* draw regular check and radio items using our assets */
 .check {
@@ -54,15 +54,18 @@
     -gtk-icon-source: none;
 }
 
-.menuitem.check:active {
+.menuitem.check:active,
+.menuitem.check:checked {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked.svg");
 }
 
-.menuitem.check:active:hover {
+.menuitem.check:active:hover,
+.menuitem.check:checked:hover {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked-hover.svg");
 }
 
-.menuitem.check:active:insensitive {
+.menuitem.check:active:insensitive,
+.menuitem.check:checked:insensitive {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked-insensitive.svg");
 }
 
@@ -85,15 +88,18 @@
     -gtk-icon-source: none;
 }
 
-.menuitem.radio:active {
+.menuitem.radio:active,
+.menuitem.radio:checked {
     -gtk-icon-source: url("assets/menuitem-radio-checked.svg");
 }
 
-.menuitem.radio:active:hover {
+.menuitem.radio:active:hover,
+.menuitem.radio:checked:hover {
     -gtk-icon-source: url("assets/menuitem-radio-checked-hover.svg");
 }
 
-.menuitem.radio:active:insensitive {
+.menuitem.radio:active:insensitive,
+.menuitem.radio:checked:insensitive {
     -gtk-icon-source: url("assets/menuitem-radio-checked-insensitive.svg");
 }
 
@@ -104,6 +110,143 @@ GtkIconView.content-view.cell.check {
 GtkIconView.content-view.cell.check:active {
     -gtk-icon-source: url("assets/grid-selection-checked.svg");
 }
+
+/*************************
+ * Check and Radio items Ubuntu 14.xx*
+ *************************/
+
+/* draw regular check and radio items using our SVG assets */
+GtkModelButton.button.check,
+GtkModelButton.button.check:hover,
+.check,
+.view.cell.check {
+	background-image: url("assets/checkbox-unchecked.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+GtkModelButton.button.check:insensitive,
+.check:insensitive {
+	background-image: url("assets/checkbox-unchecked-insensitive.svg");
+}
+
+.check row:insensitive {
+	background-color: transparent;
+}
+
+GtkModelButton.button.check:active,
+GtkModelButton.button.check:active:hover,
+.check:active,
+.view.cell.check:active {
+	background-image: url("assets/checkbox-checked.svg");
+}
+
+GtkModelButton.button.check:active:insensitive,
+.check:active:insensitive {
+	background-image: url("assets/checkbox-checked-insensitive.svg");
+}
+
+.check:inconsistent {
+	background-image: url("assets/checkbox-mixed.svg");
+}
+
+.check:inconsistent:insensitive {
+	background-image: url("assets/checkbox-mixed-insensitive.svg");
+}
+
+GtkModelButton.button.radio,
+GtkModelButton.button.radio:hover,
+.radio,
+.view.cell.radio {
+	background-image: url("assets/radio-unselected.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+GtkModelButton.button.radio:insensitive,
+.radio:insensitive {
+	background-image: url("assets/radio-unselected-insensitive.svg");
+}
+
+.radio row:insensitive {
+	background-color: transparent;
+}
+
+GtkModelButton.button.radio:active,
+GtkModelButton.button.radio:active:hover,
+.radio:active,
+.view.cell.radio:active {
+	background-image: url("assets/radio-selected.svg");
+}
+
+GtkModelButton.button.radio:active:insensitive,
+.radio:active:insensitive {
+	background-image: url("assets/radio-selected-insensitive.svg");
+}
+
+.radio:inconsistent {
+	background-image: url("assets/radio-mixed.svg");
+}
+
+.radio:inconsistent:insensitive {
+	background-image: url("assets/radio-mixed-insensitive.svg");
+}
+
+.menuitem.check {
+    background-image: none;
+}
+
+.menuitem.check:active {
+    background-image: url("assets/menuitem-checkbox-checked.svg");
+}
+
+.menuitem.check:active:hover {
+    background-image: url("assets/menuitem-checkbox-checked-hover.svg");
+}
+
+.menuitem.check:active:insensitive {
+    background-image: url("assets/menuitem-checkbox-checked-insensitive.svg");
+}
+
+.menuitem.check:inconsistent:hover,
+.menuitem.radio:inconsistent:hover {
+    background-image: url("assets/menuitem-checkbox-mixed-hover.svg");
+}
+
+.menuitem.check:inconsistent,
+.menuitem.radio:inconsistent {
+    background-image: url("assets/menuitem-checkbox-mixed.svg");
+}
+
+.menuitem.check:inconsistent:insensitive,
+.menuitem.radio:inconsistent:insensitive {
+    background-image: url("assets/menuitem-checkbox-mixed-insensitive.svg");
+}
+
+.menuitem.radio {
+    background-image: none;
+}
+
+.menuitem.radio:active {
+    background-image: url("assets/menuitem-radio-checked.svg");
+}
+
+.menuitem.radio:active:hover {
+    background-image: url("assets/menuitem-radio-checked-hover.svg");
+}
+
+.menuitem.radio:active:insensitive {
+    background-image: url("assets/menuitem-radio-checked-insensitive.svg");
+}
+
+GtkIconView.content-view.cell.check {
+    background-image: url("assets/grid-selection-unchecked.svg");
+}
+
+GtkIconView.content-view.cell.check:active {
+    background-image: url("assets/grid-selection-checked.svg");
+}
+
 
 /******************
  * pane separator *
