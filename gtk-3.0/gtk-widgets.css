@@ -502,7 +502,7 @@ GtkComboBox.combobox-entry .button:insensitive {
  * frame *
  *********/
 .frame {
-    border-width: 0;
+    border-width: 0px;
     border-radius: 2px;
 }
 
@@ -510,8 +510,8 @@ GtkComboBox.combobox-entry .button:insensitive {
  * scrolled window *
  *******************/
 GtkScrolledWindow.frame {
-    border-width: 0;
-    border-radius: 0;
+    border-width: 0px;
+    border-radius: 0px;
 }
 
 /* avoid double borders when a viewport is 
@@ -525,7 +525,7 @@ GtkScrolledWindow GtkViewport.frame {
  ************/
 GtkIconView.view.cell:selected,
 GtkIconView.view.cell:selected:focus {
-    border-width: 0;
+    border-width: 0px;
     border-style: solid;
     border-color: shade(@theme_selected_bg_color, 0.9);
     border-radius: 2px;
@@ -2050,10 +2050,10 @@ GtkColorButton.button {
 
 .inline-toolbar.toolbar .button {
     padding: 2px;
-    border-width: 0;
+    border-width: 0px;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
-    border-radius: 0;
+    border-radius: 0px;
     background-color: shade(@theme_bg_color, 1.08);
     background-image: none;
     color: @theme_fg_color;
@@ -2163,10 +2163,10 @@ GtkColorButton.button {
 .inline-toolbar.toolbar GtkToolButton .button,
 .inline-toolbar.toolbar GtkToolButton .button:active,
 .inline-toolbar.toolbar GtkToolButton .button:insensitive {
-    border-width: 0;
-    border-radius: 0;
-    border-right-width: 0;
-    border-left-width: 0;
+    border-width: 0px;
+    border-radius: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 /*leftmost button */
@@ -2181,11 +2181,11 @@ GtkColorButton.button {
 .inline-toolbar.toolbar GtkToolButton:first-child .button,
 .inline-toolbar.toolbar GtkToolButton:first-child .button:active,
 .inline-toolbar.toolbar GtkToolButton:first-child .button:insensitive {
-    border-width: 0;
+    border-width: 0px;
     border-radius: 2px;
-    border-right-width: 0;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
+    border-right-width: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 /* rightmost button */
@@ -2200,11 +2200,11 @@ GtkColorButton.button {
 .inline-toolbar.toolbar GtkToolButton:last-child .button,
 .inline-toolbar.toolbar GtkToolButton:last-child .button:active,
 .inline-toolbar.toolbar GtkToolButton:last-child .button:insensitive {
-    border-width: 0;
+    border-width: 0px;
     border-radius: 2px;
-    border-left-width: 0;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
+    border-left-width: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 /* linked single button */
@@ -2219,7 +2219,7 @@ GtkColorButton.button {
 .inline-toolbar.toolbar GtkToolButton:only-child .button,
 .inline-toolbar.toolbar GtkToolButton:only-child .button:active,
 .inline-toolbar.toolbar GtkToolButton:only-child .button:insensitive {
-    border-width: 0;
+    border-width: 0px;
     border-radius: 2px;
 }
 
