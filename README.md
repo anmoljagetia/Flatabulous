@@ -25,7 +25,7 @@ Then, you can download the source to the theme [here](https://github.com/anmolja
 
 `mkdir .themes`
 
-Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/⌘ + H`. Alternatively, youc an also place the extracted files in your `/usr/share/themes/` folder.
+Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/⌘ + H`. Alternatively, you can also place the extracted files in your `/usr/share/themes/` folder.
 
 #Flat Icons
 
