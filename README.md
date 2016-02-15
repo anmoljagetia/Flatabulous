@@ -4,12 +4,21 @@
 
 This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is based on a the Ultra-Flat theme. Special thanks to @steftrikia and Satyajit Sahoo for the original work.
 
-#Installation
-
 This theme was designed *specially* for the Unity environment on Ubuntu as I have only tested it on Ubuntu. It might not work properly for the other versions.
 
 ![Imgur](http://i.imgur.com/M5yxggQ.png?1)
 *The terminal*
+
+#Installation
+
+First, install the theme by simply running the following commands in your console ( or Terminal ) :
+
+```
+    $ sudo su
+    
+    $ wget -qO- https://github.com/anmoljagetia/Flatabulous/archive/master.tar.gz | tar xvz -C /usr/share/themes
+```
+
 
 To install the theme, you must first install the [**Ubuntu tweak tool**](http://ubuntu-tweak.com/). It can be installed by simply running the command :
 
@@ -21,11 +30,13 @@ To install the theme, you must first install the [**Ubuntu tweak tool**](http://
 
 or heading over to there website, downloading the .deb file (recommended).
 
+
+
 Then, you can download the source to the theme [here](https://github.com/anmoljagetia/Flatabulous/archive/master.zip). If you are a developer or a designer, I also encourage you to contribute to it. Create a folder, called .theme in your home directory. This can be simply created by firing up your terminal, and then running
 
 `mkdir .themes`
 
-Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/⌘ + H`. Alternatively, youc an also place the extracted files in your `/usr/share/themes/` folder.
+Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/⌘ + H`.
 
 #Flat Icons
 
