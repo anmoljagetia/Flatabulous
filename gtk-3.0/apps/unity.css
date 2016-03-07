@@ -22,7 +22,7 @@ UnityDecoration.top {
     border-bottom-width: 0;
     border-radius: 6px 6px 0 0;
     padding: 1px 8px 0 8px;
-    background-color: @titlebar_bg_color;
+    background-color: #2d2d2d;
     color: mix(@titlebar_fg_color, @titlebar_bg_color, 0.1);
     text-shadow: none;
 }
@@ -30,7 +30,7 @@ UnityDecoration.top {
 UnityDecoration.top:backdrop {
     border: 0px solid mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.12);
     border-bottom-width: 0;
-    background-color: @titlebar_bg_color;
+    background-color: #2d2d2d;
     color: mix(@titlebar_fg_color, @titlebar_bg_color, 0.4);
 }
 

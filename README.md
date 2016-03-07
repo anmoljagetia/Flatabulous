@@ -64,7 +64,7 @@ based on you color preference. I recommend these flat icons, but you can also lo
 Now press your super key, search for **Ubuntu Tweak** and fire it. Under the tweaks tab, there is an option for theme. Under that select the **Flatabulous** theme. Under the icon settings, select **ultra-flat-icons**. Restart your computer, and you should be good to go! You computer will look something like this after you *restart*.
 
 
-#Screenshots
+# Screenshots
 
 ![Code](http://i.imgur.com/AspVFn7.png?1)
 *Theme with Sublime Text 3 and JavaScript Code.*
@@ -77,7 +77,7 @@ Now press your super key, search for **Ubuntu Tweak** and fire it. Under the twe
 *Settings Menu*
 
 
-#Posters
+# Posters
 
 There are a few posters, for promotion and publicity. The PSD files can be found [here](https://github.com/anmoljagetia/Flatabulous/tree/master/preview/PSD). Feel free to improve them.
 
@@ -87,7 +87,7 @@ There are a few posters, for promotion and publicity. The PSD files can be found
 ![Poster 2](http://i.imgur.com/tv3II6s.png)
 *Flat Poster*
 
-#Contributing
+# Contributing
 
 For any questions, please open an issue. If you are a developer or a designer, please contribute in form of code/graphics. For any other issue, please [email me](mailto:hello@anmoljagetia.me).
 
@@ -110,19 +110,19 @@ You guys are awesome!
 * Adds rounded top bars to unity.
 
 # Frequently Asked Questions (FAQ)
-** Q. What is your Sublime Text theme ?**
+**Q. What is your Sublime Text theme ?**
 
-** A. ** My Sublime text theme is a port of [Brogrammer](https://github.com/kenwheeler/brogrammer-theme) and [Numix](https://github.com/nauzethc/sublime-text-numix) themes, which I have tweaked a little using [this](http://tmtheme-editor.herokuapp.com/) awesome tool for better contrast and colors. My exact version can be found [here](https://github.com/anmoljagetia/dotfiles/blob/master/sublime/anmol.tmTheme).
+**A.** My Sublime text theme is a port of [Brogrammer](https://github.com/kenwheeler/brogrammer-theme) and [Numix](https://github.com/nauzethc/sublime-text-numix) themes, which I have tweaked a little using [this](http://tmtheme-editor.herokuapp.com/) awesome tool for better contrast and colors. My exact version can be found [here](https://github.com/anmoljagetia/dotfiles/blob/master/sublime/anmol.tmTheme).
 
 [**Quentin Gerodel**](https://github.com/Swizz540) has also contributed a version for [Atom](https://atom.io), which can be found [here](https://github.com/Swizz540/atom-anmol-syntax).
 
-** Q. Where can I find your wallpaper ? **
+**Q. Where can I find your wallpaper ?**
 
-** A. ** This wallpaper can be found [here](https://plus.google.com/+JaromBradshaw/posts/FFnhcPqVaCc?pid=6001488417862207826&oid=115581491412616658975) along with a bunch of other super cool ones in the same album.
+**A.** This wallpaper can be found [here](https://plus.google.com/+JaromBradshaw/posts/FFnhcPqVaCc?pid=6001488417862207826&oid=115581491412616658975) along with a bunch of other super cool ones in the same album.
 
-** Q. What are your terminal theme and settings ? **
+**Q. What are your terminal theme and settings ?**
 
-** A. ** I am presently using zsh with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) configuration. For the colorscheme, I am using a modified version of the default tango colors, material colors and the one dark scheme.
+**A.** I am presently using zsh with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) configuration. For the colorscheme, I am using a modified version of the default tango colors, material colors and the one dark scheme.
 
 My zsh config can be found [here](https://github.com/anmoljagetia/dotfiles/blob/master/zsh/custom/themes/anmol.zsh-theme). This works if  you have powerline fonts installed and oh-my-zsh setup. All other dotfiles can be found [here](https://github.com/anmoljagetia/dotfiles).
 
