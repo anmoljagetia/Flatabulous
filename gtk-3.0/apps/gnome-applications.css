@@ -113,6 +113,14 @@ NautilusWindow .sidebar .frame {
     border-style: none;
 }
 
+NautilusWindow .sidebar .frame .sidebar-icon {
+    padding-left: 20px;
+}
+
+NautilusWindow .sidebar .frame .sidebar-label {
+    padding: 5px;
+}
+
 NautilusWindow > GtkGrid > .pane-separator,
 NautilusWindow > GtkGrid > .pane-separator:hover {
     border-width: 0 0 0 0;
@@ -154,6 +162,8 @@ NautilusQueryEditor .primary-toolbar.toolbar:only-child {
     border-bottom-width: 0;
     border-bottom-color: shade(@toolbar_bg_color, 0.8);
 }
+
+
 
 /******************
  * gnome terminal *
