@@ -193,6 +193,10 @@ GtkAssistant .sidebar {
     color: @theme_fg_color;
 }
 
+.button.flat {
+    background-color: rgba(0,0,0,0);
+}
+
 .button:hover {
     border-color: shade(@theme_bg_color, 0.7);
     background-color: shade(@theme_bg_color, 1.10);
