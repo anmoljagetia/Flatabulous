@@ -335,3 +335,11 @@ EPreviewPane .entry {
     background-color: shade(@theme_base_color, 0.95);
     color: @theme_text_color;
 }
+
+GtkFileChooserDialog .sidebar .frame .sidebar-icon {
+    padding-left: 20px;
+}
+
+GtkFileChooserDialog .sidebar .frame .sidebar-label {
+    padding: 5px;
+}
