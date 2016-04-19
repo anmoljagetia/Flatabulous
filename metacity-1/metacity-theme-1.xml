@@ -69,38 +69,38 @@
 
 <!-- ::: BORDER ::: -->
 <draw_ops name="border">
-	<rectangle color="shade/#424242/1.00" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+	<rectangle color="shade/#2d2d2d/1.00" filled="false" x="0" y="0" width="width-1" height="height-1"/>
 </draw_ops>
 
 <draw_ops name="border_unfocused">
-	<rectangle color="shade/#424242/1.00" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+	<rectangle color="shade/#2d2d2d/1.00" filled="false" x="0" y="0" width="width-1" height="height-1"/>
 </draw_ops>
 
 <draw_ops name="maxed_border">
-	<line color="shade/#424242/1.00" x1="0" y1="0" x2="width" y2="0"/>
-	<line color="shade/#424242/1.00" x1="0" y1="height-1" x2="width" y2="height-1"/>
+	<line color="shade/#2d2d2d/1.00" x1="0" y1="0" x2="width" y2="0"/>
+	<line color="shade/#2d2d2d/1.00" x1="0" y1="height-1" x2="width" y2="height-1"/>
 </draw_ops>
 
 <!-- ::: TITLEBAR ::: -->
 <draw_ops name="titlebar_gradient">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/#424242/1.00"/>
-		<color value="shade/#424242/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_gradient_unfocused">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/#424242/1.00"/>
-		<color value="shade/#424242/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
 	</gradient>
 </draw_ops>
 
 <!-- ::: TITLEBAR DIALOG ::: -->
 <draw_ops name="titlebar_dialog">
 	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/#424242/1.00"/>
-		<color value="shade/#424242/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
+		<color value="shade/#2d2d2d/1.00"/>
 	</gradient>
 </draw_ops>
 
@@ -132,17 +132,17 @@
 <draw_ops name="round_titlebar_shaded">
 	<include name="titlebar_gradient_unfocused"/>
 	<include name="border"/>
-	<line color="shade/#424242/0.85" x1="5" y1="height-1" x2="width-6" y2="height-1"/>
+	<line color="shade/#2d2d2d/0.85" x1="5" y1="height-1" x2="width-6" y2="height-1"/>
 </draw_ops>
 
 <!-- ::: TITLES ::: -->
 <draw_ops name="title">
-	<title color="shade/#424242/0.90" x="((width - title_width) / 2) -36 `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
+	<title color="shade/#2d2d2d/0.90" x="((width - title_width) / 2) -36 `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
 	<title color="shade/#F0F0F0/1.00" x="((width - title_width) / 2) -36 `max` 0" y="0 `max` ((height-title_height)/2)"/>
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title color="shade/#424242/0.90" x="((width - title_width) / 2) -36 `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
+	<title color="shade/#2d2d2d/0.90" x="((width - title_width) / 2) -36 `max` 0" y="1 `max` ((height-title_height)/2)+1"/>
 	<title color="shade/#D8D8D8/1.00" x="((width - title_width) / 2) -36 `max` 0" y="0 `max` ((height-title_height)/2)"/>
 </draw_ops>
 
