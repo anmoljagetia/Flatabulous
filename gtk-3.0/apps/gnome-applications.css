@@ -343,3 +343,7 @@ GtkFileChooserDialog .sidebar .frame .sidebar-icon {
 GtkFileChooserDialog .sidebar .frame .sidebar-label {
     padding: 5px;
 }
+
+GtkFileChooserDialog .dialog-vbox .action-bar {
+    padding: 10px;
+}
