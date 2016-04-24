@@ -173,10 +173,23 @@ VteTerminal {
     color: @osd_fg;
 }
 
-TerminalWindow GtkNotebook.notebook {
+TerminalWindow .notebook {
     border-right-width: 0;
     border-bottom-width: 0;
     border-left-width: 0;
+    background-color: shade(@bg_color, 0.85);
+}
+
+TerminalWindow .notebook GtkBox.vertical {
+    border-radius: 0;
+}
+
+TerminalWindow .notebook tab:active, TerminalWindow .notebook GtkBox.vertical {
+    background-color: @bg_color;
+}
+
+TerminalWindow .notebook tab .label {
+    color: @fg_color;
 }
 
 TerminalWindow .scrollbars-junction,
