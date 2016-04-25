@@ -3194,3 +3194,48 @@ GtkBubbleWindow .toolbar {
 }
 
 
+/***********
+ * popover *
+ ***********/
+.popover {
+    -GtkPopOver-arrow-width: 21;
+    -GtkPopOver-arrow-height: 12;
+    -GtkPopOver-border-radius: 2px;
+    -GtkPopOver-border-width: 1;
+    -GtkPopOver-shadow-size: 12;
+
+    margin: 0;
+    background: @menu_bg_color;
+}
+
+
+.popover .button .label {
+    color: @menu_fg_color;
+
+}
+
+.popover .button:hover {
+    border-color: shade(@menu_bg_color, 0.7);
+    background-color: @theme_selected_bg_color;
+    background-image: none;
+    color: @theme_selected_fg_color;
+}
+
+.popover .button:active {
+    border-color: shade(@menu_bg_color, 0.8);
+    background-color: shade(@menu_bg_color, 0.95);
+    background-image: none;
+}
+
+.popover .button:insensitive {
+    background-color: rgba(0,0,0,0);
+}
+
+.popover .button:insensitive .label {
+    color: mix(@menu_fg_color, @menu_bg_color, 0.5);
+}
+
+.popover *.separator {
+    border-color: shade(@menu_bg_color, 0.9);
+    color: transparent;
+}
