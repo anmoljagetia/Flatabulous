@@ -6,6 +6,9 @@ This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is b
 
 # Installation
 
+## Update
+Install it manually, if you are on Ubuntu 16.04 or higher. If you prefer the `.deb` installers, please download the correct one, based on the version from [here](https://github.com/anmoljagetia/Flatabulous/releases).
+
 
 This theme was designed *specially* for the Unity environment on Ubuntu as I have only tested it on Ubuntu. It might not work properly for the other versions.
 
@@ -24,7 +27,7 @@ or heading over to there website, downloading the .deb file (recommended).
 
 ## 1. Using the .deb file for Debian, Ubuntu and derivatives (Recommended)
 
-Download the .deb file from [here](https://github.com/anmoljagetia/Flatabulous/releases/download/15.04.1/Flatabulous-Theme.deb), double click to open with Ubuntu Software Center and click on install. Than install the theme using ubuntu-tweak.
+Download the .deb file from [here](https://github.com/anmoljagetia/Flatabulous/releases/download/16.04.1/Flatabulous-Theme.deb), double click to open with Ubuntu Software Center and click on install. Than install the theme using ubuntu-tweak.
 
 
 ## 2. Using the noobslab PPA
