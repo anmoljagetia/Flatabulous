@@ -27,7 +27,7 @@ or heading over to there website, downloading the .deb file (recommended).
 
 ## 1. Using the .deb file for Debian, Ubuntu and derivatives (Recommended)
 
-Download the .deb file from [here](https://github.com/anmoljagetia/Flatabulous/releases/download/16.04.1/Flatabulous-Theme.deb), double click to open with Ubuntu Software Center and click on install. Than install the theme using ubuntu-tweak.
+Download the .deb file from [here](https://github.com/anmoljagetia/Flatabulous/releases/latest), double click to open with Ubuntu Software Center and click on install. Than install the theme using ubuntu-tweak.
 
 
 ## 2. Using the noobslab PPA
