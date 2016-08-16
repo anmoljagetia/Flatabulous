@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gresources>
+	<gresource prefix='/org/numixproject/gtk-3.20'>
+		<file preprocess='to-pixdata'>assets/checkbox-checked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-checked-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-checked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-checked.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-mixed-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-mixed-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-mixed-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-mixed.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-unchecked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-unchecked-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-unchecked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/checkbox-unchecked.png</file>
+		<file preprocess='to-pixdata'>assets/grid-selection-checked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/grid-selection-checked.png</file>
+		<file preprocess='to-pixdata'>assets/grid-selection-unchecked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/grid-selection-unchecked.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-checked-hover.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-checked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-checked.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-mixed-hover.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-mixed-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-checkbox-mixed.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-radio-checked-hover.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-radio-checked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/menuitem-radio-checked.png</file>
+		<file preprocess='to-pixdata'>assets/pane-handle.png</file>
+		<file preprocess='to-pixdata'>assets/radio-checked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-checked-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-checked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/radio-checked.png</file>
+		<file preprocess='to-pixdata'>assets/radio-mixed-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-mixed-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-mixed-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/radio-mixed.png</file>
+		<file preprocess='to-pixdata'>assets/radio-unchecked-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-unchecked-insensitive-dark.png</file>
+		<file preprocess='to-pixdata'>assets/radio-unchecked-insensitive.png</file>
+		<file preprocess='to-pixdata'>assets/radio-unchecked.png</file>
+		<file>dist/gtk.css</file>
+		<file>dist/gtk-dark.css</file>
+	</gresource>
+</gresources>
