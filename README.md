@@ -121,7 +121,7 @@ You guys are awesome!
 
 **Q. Where can I find your wallpaper ?**
 
-**A.** This wallpaper can be found [here](https://plus.google.com/+JaromBradshaw/posts/FFnhcPqVaCc?pid=6001488417862207826&oid=115581491412616658975) along with a bunch of other super cool ones in the same album.
+**A.** This wallpaper can be found [here](http://imgur.com/nrbzQMa) and [here](https://drive.google.com/a/media.net/file/d/0B4nzxp4u7hzvVXJVeTZoY3dhSEE/view).
 
 **Q. What are your terminal theme and settings ?**
 
