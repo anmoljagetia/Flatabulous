@@ -123,6 +123,8 @@ You guys are awesome!
 
 **A.** This wallpaper can be found [here](http://imgur.com/nrbzQMa) and [here](https://drive.google.com/a/media.net/file/d/0B4nzxp4u7hzvVXJVeTZoY3dhSEE/view).
 
+Credits: [Meteor](https://dribbble.com/shots/1355879-Meteor-Wallpaper) by [Nina Geometrieva](https://dribbble.com/ni)
+
 **Q. What are your terminal theme and settings ?**
 
 **A.** I am presently using zsh with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) configuration. For the colorscheme, I am using a modified version of the default tango colors, material colors and the one dark scheme.
