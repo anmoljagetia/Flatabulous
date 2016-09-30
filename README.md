@@ -19,8 +19,6 @@ This theme was designed *specially* for the Unity environment on Ubuntu as I hav
 To install the theme, you must first install the [**Ubuntu tweak tool**](http://ubuntu-tweak.com/). It can be installed by simply running the command :
 
 ```
-sudo add-apt-repository ppa:tualatrix/ppa
-sudo apt-get update
 sudo apt-get install ubuntu-tweak
 ```
 
