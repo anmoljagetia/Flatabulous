@@ -15,6 +15,7 @@ This theme was designed *specially* for the Unity environment on Ubuntu as I hav
 ![Imgur](http://i.imgur.com/M5yxggQ.png?1)
 *The terminal*
 
+
 To install the theme, you must first install the [**Ubuntu tweak tool**](http://ubuntu-tweak.com/). It can be installed by simply running the command :
 
 ```
@@ -32,7 +33,7 @@ sudo apt-get update
 sudo apt-get install ubuntu-tweak
 ```
 
-or heading over to there website, downloading the .deb file (recommended).
+or heading over to their website, downloading the .deb file (recommended).
 
 ## 1. Using the .deb file for Debian, Ubuntu and derivatives (Recommended)
 
