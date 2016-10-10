@@ -16,15 +16,13 @@ This theme was designed *specially* for the Unity environment on Ubuntu as I hav
 *The terminal*
 
 
-To install the theme, you must first install the [**Ubuntu tweak tool**](http://ubuntu-tweak.com/). It can be installed by simply running the command :
+To install the theme, you must first install the [**Unity Tweak Tool**](https://launchpad.net/unity-tweak-tool). It can be installed by simply running the command :
 
 ```
-sudo add-apt-repository ppa:tualatrix/ppa
-sudo apt-get update
-sudo apt-get install ubuntu-tweak
+sudo apt-get install unity-tweak-tool
 ```
 
-## Update 
+## Update
 If you are on Ubuntu 16.04 or higher, run the commands below to install Ubuntu Tweak:
 ```
 wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
