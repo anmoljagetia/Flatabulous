@@ -2,11 +2,12 @@
 
 # Flatabulous
 
-This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is based on a the Ultra-Flat theme. Special thanks to @steftrikia and Satyajit Sahoo for the original work.
+This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is based on the Ultra-Flat theme. Special thanks to @steftrikia and Satyajit Sahoo for the original work.
 
 # Installation
 
 ## Update
+
 Install it manually, if you are on Ubuntu 16.04 or higher. If you prefer the `.deb` installers, please download the correct one, based on the version from [here](https://github.com/anmoljagetia/Flatabulous/releases).
 
 
@@ -16,14 +17,16 @@ This theme was designed *specially* for the Unity environment on Ubuntu as I hav
 *The terminal*
 
 
-To install the theme, you must first install the [**Unity Tweak Tool**](https://launchpad.net/unity-tweak-tool). It can be installed by simply running the command :
+To install the theme, you must first install the [**Unity Tweak Tool**](https://launchpad.net/unity-tweak-tool). It can be installed by simply running the command:
 
 ```
 sudo apt-get install unity-tweak-tool
 ```
 
 ## Update
+
 If you are on Ubuntu 16.04 or higher, run the commands below to install Ubuntu Tweak:
+
 ```
 wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
 sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
@@ -31,12 +34,11 @@ sudo apt-get update
 sudo apt-get install ubuntu-tweak
 ```
 
-or heading over to their website, downloading the .deb file (recommended).
+or head over to their website, downloading the .deb file (recommended).
 
 ## 1. Using the .deb file for Debian, Ubuntu and derivatives (Recommended)
 
 Download the .deb file from [here](https://github.com/anmoljagetia/Flatabulous/releases/latest), double click to open with Ubuntu Software Center and click on install. Than install the theme using ubuntu-tweak.
-
 
 ## 2. Using the noobslab PPA
 
@@ -50,7 +52,9 @@ sudo apt-get install flatabulous-theme
 
 Download the source to the theme [here](https://github.com/anmoljagetia/Flatabulous/archive/master.zip). If some problem ossurs with your installation, kindly download the correct version based on your version of Ubuntu from [here](https://github.com/anmoljagetia/Flatabulous/releases). If you are a developer or a designer, I also encourage you to contribute to it. Create a folder, called .theme in your home directory. This can be simply created by firing up your terminal, and then running
 
-`mkdir .themes`
+```
+mkdir .themes
+```
 
 Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/‚åò + H`. Alternatively, you can also place the extracted files in your `/usr/share/themes/` folder.
 
@@ -59,8 +63,7 @@ Now this is a hidden directory, to view this in Nautilus, you can press `Ctrl/‚å
 ![Flat Icons](http://i.imgur.com/80qCZGQ.png)
 *Dashboard*
 
-For Icons, I use the ultra-flat-icons theme. It is available in blue (recommended), orange and mint green colors. To install this, you can run the following commands
-
+For icons, I use the ultra-flat-icons theme. It is available in blue (recommended), orange and mint green colors. To install this, you can run the following commands
 
 ```
 sudo add-apt-repository ppa:noobslab/icons
@@ -74,7 +77,6 @@ based on you color preference. I recommend these flat icons, but you can also lo
 
 Now press your super key, search for **Ubuntu Tweak** and fire it. Under the tweaks tab, there is an option for theme. Under that select the **Flatabulous** theme. Under the icon settings, select **ultra-flat-icons**. Restart your computer, and you should be good to go! You computer will look something like this after you *restart*.
 
-
 # Screenshots
 
 ![Code](http://i.imgur.com/AspVFn7.png?1)
@@ -86,7 +88,6 @@ Now press your super key, search for **Ubuntu Tweak** and fire it. Under the twe
 
 ![Settings](http://i.imgur.com/TKTe3Mn.png?1)
 *Settings Menu*
-
 
 # Posters
 
@@ -116,11 +117,13 @@ You guys are awesome!
 # Updates
 
 ## v 1.1
+
 * Fixes issue of transparent check-box and transparent radio buttons.
 * Updates the launcher icon.
 * Adds rounded top bars to unity.
 
 # Frequently Asked Questions (FAQ)
+
 **Q. What is your Sublime Text theme ?**
 
 **A.** My Sublime text theme is a port of [Brogrammer](https://github.com/kenwheeler/brogrammer-theme) and [Numix](https://github.com/nauzethc/sublime-text-numix) themes, which I have tweaked a little using [this](http://tmtheme-editor.herokuapp.com/) awesome tool for better contrast and colors. My exact version can be found [here](https://github.com/anmoljagetia/dotfiles/blob/master/sublime/anmol.tmTheme).
