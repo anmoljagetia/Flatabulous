@@ -48,7 +48,7 @@ UnityDecoration.bottom:backdrop {
 
 UnityPanelWidget,
 .unity-panel {
-    border-width: 0 0 20px 0;
+    border-width: 0 200px 0 0;
     border-style: solid;
     border-color: @panel_bg_color;
     background-color: @panel_bg_color;

@@ -58,7 +58,7 @@
     background-color: @theme_bg_color;
     color: @theme_fg_color;
 }
- 
+
 * {
     /* inherit colors from parent */
     color: inherit;
@@ -518,7 +518,7 @@ GtkScrolledWindow.frame {
     border-radius: 0px;
 }
 
-/* avoid double borders when a viewport is 
+/* avoid double borders when a viewport is
  * packed into a GtkScrolledWindow */
 GtkScrolledWindow GtkViewport.frame {
     border-style: none;
@@ -706,6 +706,7 @@ GtkInfoBar {
  * miscellaneous *
  *****************/
 .floating-bar {
+    padding: 2px;
     border-width: 0;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
@@ -815,7 +816,7 @@ GtkComboBox .menu {
  ***********/
 .menubar {
     -GtkWidget-window-dragging: true;
-
+    padding: 2px;
     border-style: none;
     background-color: @menubar_bg_color;
     background-image: none;
@@ -861,9 +862,9 @@ GtkTreeMenu .menuitem {
     padding: 3px;
     border-width: 0;
     border-style: solid;
-    border-color: transparent;
+    border-color: @dark_fg_color;
     border-radius: 0;
-    background-color: transparent;
+    background-color: @menubar_bg_color;
     background-image: none;
     color: @menu_fg_color;
 
@@ -1900,7 +1901,7 @@ GtkColorButton.button {
  ***********/
 .toolbar {
     padding: 5px;
-    border-width: 0;
+    border-width: 5px;
     background-color: @toolbar_bg_color;
     background-image: none;
 }
@@ -2038,7 +2039,7 @@ GtkColorButton.button {
 .inline-toolbar.toolbar {
     -GtkToolbar-button-relief: normal;
     padding: 1px;
-    border-width: 0;
+    border-width: 10px;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
     border-radius: 2px;
@@ -2880,7 +2881,7 @@ GtkProgressBar.osd.trough {
 .osd GtkProgressBar.progressbar,
 GtkProgressBar.osd.progressbar {
     border-style: none;
-    border-radius: 0;    
+    border-radius: 0;
     background-color: @theme_selected_bg_color;
     background-image: none;
 }
