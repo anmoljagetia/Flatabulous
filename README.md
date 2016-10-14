@@ -50,7 +50,7 @@ sudo apt-get install flatabulous-theme
 
 ## 3. Manually
 
-Download the source to the theme [here](https://github.com/anmoljagetia/Flatabulous/archive/master.zip). If some problem ossurs with your installation, kindly download the correct version based on your version of Ubuntu from [here](https://github.com/anmoljagetia/Flatabulous/releases). If you are a developer or a designer, I also encourage you to contribute to it. Create a folder, called .theme in your home directory. This can be simply created by firing up your terminal, and then running
+Download the source to the theme [here](https://github.com/anmoljagetia/Flatabulous/archive/master.zip). If a problem occurs with your installation, kindly download the correct version based on your version of Ubuntu from [here](https://github.com/anmoljagetia/Flatabulous/releases). If you are a developer or a designer, I also encourage you to contribute to it. Create a folder, called .theme in your home directory. This can be simply created by firing up your terminal, and then running
 
 ```
 mkdir .themes
