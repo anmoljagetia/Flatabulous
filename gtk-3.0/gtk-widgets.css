@@ -706,7 +706,6 @@ GtkInfoBar {
  * miscellaneous *
  *****************/
 .floating-bar {
-    padding: 2px;
     border-width: 0;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
@@ -816,7 +815,6 @@ GtkComboBox .menu {
  ***********/
 .menubar {
     -GtkWidget-window-dragging: true;
-    padding: 2px;
     border-style: none;
     background-color: @menubar_bg_color;
     background-image: none;
@@ -1901,7 +1899,7 @@ GtkColorButton.button {
  ***********/
 .toolbar {
     padding: 5px;
-    border-width: 5px;
+    border-width: 0;
     background-color: @toolbar_bg_color;
     background-image: none;
 }
@@ -2039,7 +2037,7 @@ GtkColorButton.button {
 .inline-toolbar.toolbar {
     -GtkToolbar-button-relief: normal;
     padding: 1px;
-    border-width: 10px;
+    border-width: 0;
     border-style: solid;
     border-color: shade(@theme_bg_color, 0.8);
     border-radius: 2px;
