@@ -1,5 +1,7 @@
 ![Flatabulous](http://i.imgur.com/6UciOOK.png)
 
+*Update* - I am looking for additional collaborators and maintainers to help me out with this. I have been keeping busy lately, and have been using Ubuntu sporadically, so it would be nice to ahve some help!
+
 # Flatabulous
 
 This is a Flat theme for Ubuntu and other debian based Linux Systems.  This is based on the Ultra-Flat theme. Special thanks to @steftrikia and Satyajit Sahoo for the original work.
