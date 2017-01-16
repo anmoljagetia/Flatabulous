@@ -1,6 +1,6 @@
 ![Flatabulous](http://i.imgur.com/6UciOOK.png)
 
-*Update* - I am looking for additional collaborators and maintainers to help me out with this. I have been keeping busy lately, and have been using Ubuntu sporadically, so it would be nice to ahve some help!
+*Update* - I am looking for additional collaborators and maintainers to help me out with this. I have been keeping busy lately, and have been using Ubuntu sporadically, so it would be nice to have some help!
 
 # Flatabulous
 
