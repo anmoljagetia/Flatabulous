@@ -9,19 +9,19 @@
 </info>
 
 <!-- meaningfull constants -->
-<constant name="C_border_focused" value="blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.7" />
-<constant name="C_border_unfocused" value="blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.8" />
-<constant name="C_border_attached_focused" value="blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.7" />
-<constant name="C_title_focused" value="shade/gtk:custom(theme_text_dark_color,gtk:text[NORMAL])/1.00" />
-<constant name="C_title_focused_hilight" value="shade/gtk:custom(theme_shadow_dark_color,gtk:base[NORMAL])/1.00" />
-<constant name="C_title_unfocused" value="shade/gtk:custom(theme_fg_dark_color,gtk:fg[NORMAL])/1.00" />
+<constant name="C_border_focused" value="blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.7" />
+<constant name="C_border_unfocused" value="blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.8" />
+<constant name="C_border_attached_focused" value="blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.7" />
+<constant name="C_title_focused" value="gtk:custom(wm_title_focused,gtk:text[NORMAL])" />
+<constant name="C_title_focused_hilight" value="gtk:custom(wm_title_focused,gtk:base[NORMAL])" />
+<constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,gtk:fg[NORMAL])" />
 
 <!-- color of the button icons -->
 <constant name="C_icons_focused" value="gtk:text[SELECTED]" />
 <constant name="C_icons_focused_pressed" value="#ffffff" />
-<constant name="C_icons_unfocused" value="blend/gtk:text[NORMAL]/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.9" />
-<constant name="C_icons_unfocused_prelight" value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.3" />
-<constant name="C_icons_unfocused_pressed" value="blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.7" />
+<constant name="C_icons_unfocused" value="blend/gtk:text[NORMAL]/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.9" />
+<constant name="C_icons_unfocused_prelight" value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.3" />
+<constant name="C_icons_unfocused_pressed" value="blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.7" />
 <constant name="D_icons_unfocused_offset" value="2" /> <!-- offset of the unfocused icons -->
 <constant name="D_icons_shrink" value="1" /> <!-- increasing this value makes the icons in buttons smaller -->
 <constant name="D_icons_grow" value="0" /> <!-- increasing this value makes the icons in buttons bigger -->
@@ -152,22 +152,16 @@
 </draw_ops>
 
 <draw_ops name="titlebar_fill_focused">
-	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-	</gradient>
+	<rectangle color="shade/gtk:custom(titlebar_bg_color,gtk:bg[NORMAL])/1.00" x="0" y="0" width="width" height="top_height" filled="true" />
 </draw_ops>
 
-<!-- Dialogos -->
+<!-- Dialogs -->
 <draw_ops name="dialog_titlebar_fill_focused">
-	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-	</gradient>
+	<rectangle color="shade/gtk:custom(titlebar_bg_color,gtk:bg[NORMAL])/1.00" x="0" y="0" width="width" height="top_height" filled="true" />
 </draw_ops>
 
 <draw_ops name="titlebar_fill_attached_focused"> <!-- gradient for attached titlebar-->
-    <line x1="0" y1="0" x2="width" y2="0" color="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.64" />    
+    <line x1="0" y1="0" x2="width" y2="0" color="shade/gtk:custom(titlebar_bg_color,gtk:bg[NORMAL])/0.64" />
 	<gradient type="vertical" x="0" y="1" width="width" height="6">
 		<color value="shade/gtk:bg[NORMAL]/0.87"/>
 		<color value="shade/gtk:bg[NORMAL]/1.00"/>
@@ -182,10 +176,7 @@
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
-	<gradient type="vertical" x="0" y="0" width="width" height="top_height">
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-		<color value="shade/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/1.00"/>
-	</gradient>
+	<rectangle color="shade/gtk:custom(titlebar_bg_color,gtk:bg[NORMAL])/1.00" x="0" y="0" width="width" height="top_height" filled="true" />
 </draw_ops>
 
 <draw_ops name="hilight">
@@ -526,15 +517,15 @@
 
 	<!-- button backgrounds -->
 
-<constant name="C_button_border" value="blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.8" />
-<constant name="C_button_hilight" value="gtk:custom(wm_highlight,blend/gtk:base[NORMAL]/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.6)" />
+<constant name="C_button_border" value="blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.8" />
+<constant name="C_button_hilight" value="gtk:custom(wm_highlight,blend/gtk:base[NORMAL]/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.6)" />
 
 <draw_ops name="button_fill"> <!-- button background gradient -->
 	<gradient type="vertical" x="0" y="0" width="width" height="height-2">
-		<color value="gtk:custom(wm_button_bg_a,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.15)" />
-		<color value="gtk:custom(wm_button_bg_b,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.21)" />
-		<color value="gtk:custom(wm_button_bg_c,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.27)" />
-		<color value="gtk:custom(wm_button_bg_d,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.12)" />
+		<color value="gtk:custom(wm_button_bg_a,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.15)" />
+		<color value="gtk:custom(wm_button_bg_b,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.21)" />
+		<color value="gtk:custom(wm_button_bg_c,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.27)" />
+		<color value="gtk:custom(wm_button_bg_d,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.12)" />
 	</gradient>
 </draw_ops>
 
@@ -545,29 +536,29 @@
 
 <draw_ops name="button_bevel">
 	<gradient type="vertical" x="0" y="0" width="1" height="height-2">
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:base[NORMAL]/0.1"/>
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/#000000/0.1"/>
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:base[NORMAL]/0.1"/>
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/#000000/0.1"/>
 	</gradient>
 	<gradient type="vertical" x="width-1" y="0" width="1" height="height-2">
 		<color value="C_border_focused"/>
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/#000000/0.1"/>
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/#000000/0.1"/>
 	</gradient>
 </draw_ops>
 
 <draw_ops name="button_fill_prelight"> <!-- button background gradient for prelight status -->
 	<gradient type="vertical" x="0" y="0" width="width" height="height-2">
-		<color value="gtk:custom(wm_button_bg_hover_a,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.03)" />
-		<color value="gtk:custom(wm_button_bg_hover_b,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.1)" />
-		<color value="gtk:custom(wm_button_bg_hover_c,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.2)" />
-		<color value="gtk:custom(wm_button_bg_hover_d,blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.04)" />
+		<color value="gtk:custom(wm_button_bg_hover_a,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.03)" />
+		<color value="gtk:custom(wm_button_bg_hover_b,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.1)" />
+		<color value="gtk:custom(wm_button_bg_hover_c,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.2)" />
+		<color value="gtk:custom(wm_button_bg_hover_d,blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/gtk:fg[NORMAL]/0.04)" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="button_fill_pressed"> <!-- button background gradient for pressed status -->
 	<gradient type="vertical" x="0" y="0" width="width" height="height-2">
-		<color value="gtk:custom(wm_button_bg_active_a,blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.7)" />
-		<color value="gtk:custom(wm_button_bg_active_b,blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.75)" />
-		<color value="gtk:custom(wm_button_bg_active_c,blend/#000000/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/0.8)" />
+		<color value="gtk:custom(wm_button_bg_active_a,blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.7)" />
+		<color value="gtk:custom(wm_button_bg_active_b,blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.75)" />
+		<color value="gtk:custom(wm_button_bg_active_c,blend/#000000/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/0.8)" />
 	</gradient>
 </draw_ops>
 
@@ -677,9 +668,9 @@
 
 <draw_ops name="button_inner_right_border">
 	<gradient type="vertical" x="0" y="0" width="1" height="height-5">
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/#000000/0.06" />
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/#000000/0.06" />
-		<color value="blend/gtk:custom(theme_bg_dark_color,gtk:bg[NORMAL])/#000000/0.03" />
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/#000000/0.06" />
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/#000000/0.06" />
+		<color value="blend/gtk:custom(theme_bg_color,gtk:bg[NORMAL])/#000000/0.03" />
 	</gradient>
 	<arc color="C_button_hilight" x="1" y="height-10" width="9" height="9"  start_angle="180" extent_angle="90" />
 	<gradient type="vertical" x="1" y="0" width="1" height="height-5">
