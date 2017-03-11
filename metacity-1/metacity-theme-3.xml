@@ -1608,13 +1608,13 @@
 	<frame focus="no" state="shaded" style="normal_unfocused"/>
 	<frame focus="yes" state="maximized_and_shaded" style="normal_max_shaded_focused"/>
 	<frame focus="no" state="maximized_and_shaded" style="normal_max_shaded_unfocused"/>
-	<frame version=">= 3.3"focus="yes" state="tiled_left" style="tiled_left_focused"/>
-	<frame version=">= 3.3"focus="no" state="tiled_left" style="tiled_left_unfocused"/>
-	<frame version=">= 3.3"focus="yes" state="tiled_right" style="tiled_right_focused"/>
-	<frame version=">= 3.3"focus="no" state="tiled_right" style="tiled_right_unfocused"/>
-	<frame version=">= 3.3"focus="yes" state="tiled_left_and_shaded" style="tiled_left_focused"/>
-	<frame version=">= 3.3"focus="no" state="tiled_left_and_shaded" style="tiled_left_unfocused"/>
-	<frame version=">= 3.3"focus="yes" state="tiled_right_and_shaded" style="tiled_right_focused"/>
+	<frame version=">= 3.3" focus="yes" state="tiled_left" style="tiled_left_focused"/>
+	<frame version=">= 3.3" focus="no" state="tiled_left" style="tiled_left_unfocused"/>
+	<frame version=">= 3.3" focus="yes" state="tiled_right" style="tiled_right_focused"/>
+	<frame version=">= 3.3" focus="no" state="tiled_right" style="tiled_right_unfocused"/>
+	<frame version=">= 3.3" focus="yes" state="tiled_left_and_shaded" style="tiled_left_focused"/>
+	<frame version=">= 3.3" focus="no" state="tiled_left_and_shaded" style="tiled_left_unfocused"/>
+	<frame version=">= 3.3" focus="yes" state="tiled_right_and_shaded" style="tiled_right_focused"/>
 	<frame version=">= 3.3" focus="no" state="tiled_right_and_shaded" style="tiled_right_unfocused"/>
 </frame_style_set>
 
