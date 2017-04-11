@@ -1448,14 +1448,6 @@ GtkComboBox .separator {
 /***********
  * sidebar *
  ***********/
-.sidebar,
-.sidebar.view,
-.sidebar .view,
-.sidebar GtkScrolledWindow {
-    background-color: @theme_bg_color;
-    color: mix(@theme_fg_color, @theme_bg_color, 0.1);
-}
-
 .sidebar row:selected,
 .sidebar row:selected:hover,
 .sidebar row:selected:focus,
@@ -3238,4 +3230,15 @@ GtkBubbleWindow .toolbar {
 .popover *.separator {
     border-color: shade(@menu_bg_color, 0.9);
     color: transparent;
+}
+
+/**************************
+ * undershoot & overshoot *
+ **************************/
+.undershoot,
+.overshoot.top,
+.overshoot.right,
+.overshoot.bottom,
+.overshoot.left {
+	background: none;
 }
