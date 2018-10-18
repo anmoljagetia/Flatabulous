@@ -27,16 +27,7 @@ sudo apt-get install unity-tweak-tool
 
 ## Update
 
-If you are on Ubuntu 16.04 or higher, run the commands below to install Ubuntu Tweak:
-
-```
-wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
-sudo apt-get update
-sudo apt-get install ubuntu-tweak
-```
-
-or head over to their website, downloading the .deb file (recommended).
+If you are on Ubuntu 16.04 or higher head over to this [link](https://launchpad.net/ubuntu-tweak) to install **Ubuntu-tweak** by downloading the .deb file .
 
 ## 1. Using the .deb file for Debian, Ubuntu and derivatives (Recommended)
 
